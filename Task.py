@@ -51,7 +51,7 @@ print("__________________________________________________________")
 
 print(f"make_happy(\"My current mood: :(\")    -->    \"{make_happy('My current mood: :(')}\"")
 print(f"make_happy(\"I was hungry 8(\")        -->    \"{make_happy('I was hungry 8(')}\"")
-#print(f"make_happy(\"print('x('\")            -->    \"{make_happy('print('x')')}\"") # smthg wrong here
+#print(f"make_happy(\"print('x('\")            -->    \"{make_happy("print('x(')")}\"") # smthg wrong here
 
 print("__________________________________________________________")
 

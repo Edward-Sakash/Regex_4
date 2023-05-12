@@ -9,6 +9,9 @@ Make sure to only change the face if there are eyes before them, round(3.4) woul
 Sad face examples: :( 8( x( ;( 
 Happy face examples: :) 8) x) ;) 
 
+use capture groups
+or look behind assertion: research on (?<=.....)
+
 ## Input / Output
 ```
 make_happy("My current mood: :(")    -->    "My current mood: :)"  

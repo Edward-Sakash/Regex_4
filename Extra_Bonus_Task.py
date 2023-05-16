@@ -49,3 +49,27 @@ for expression in expressions:
     else:
         # If the expression does not match, print "Not matched" along with the expression
         print(f"Not matched: {expression}")
+
+print("_____________________________________________________")     
+
+# Solution 3
+
+import re
+
+def make_happy(sentence):
+  """
+  Takes a sentence containing sad faces and turn them into happy ones!
+
+  Args:
+    sentence: The sentence to make happy.
+
+  Returns:
+    The sentence with the sad faces turned into happy faces.
+  """
+
+  # Create a regular expression to match sad faces.
+  regex = re.compile(r'(?<=[^\W\d])([:;)(]{2})')
+
+  # Replace all sad faces with happy faces.
+  return regex.sub(r'\1)', sentence)
+
